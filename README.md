@@ -14,7 +14,7 @@ You can access the live API at:
 
 ## 📌 API Endpoints  
 
-### **1️Test if the service is running**
+### **Test if the service is running**
 - **URL:** `GET https://bids2match.onrender.com/`
 - **Response (if running):**
   ```json

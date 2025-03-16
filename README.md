@@ -76,6 +76,7 @@ The service will run in debug mode, typically available at `http://127.0.0.1:500
       "40763": [4430, 4427]
   }
   ```
+![image](https://github.com/user-attachments/assets/6d089423-047f-41af-b851-303046df1c36)
 
 ## Running Tests
 To execute unit tests:

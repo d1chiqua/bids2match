@@ -1,9 +1,15 @@
-#!flask/bin/python
-from flask import Flask, jsonify,request
-from . import json_parser, topics_matcher
+import os
+from flask import Flask, jsonify, request
+from app import json_parser, topics_matcher  # Ensure correct import path
 
 app = Flask(__name__)
 
+# Homepage route to confirm app is running
+@app.route("/")
+def home():
+    return "Hello from Bids2Match! Your service is running."
+
+# Existing API route
 @app.route('/match_topics', methods=['POST'])
 def topic_matching():
     # Attempt to get JSON from the request without forcing an error.

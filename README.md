@@ -8,6 +8,18 @@ This project is a Python-based web service that processes JSON input to match st
 - Provides a RESTful API endpoint (`/match_topics`).
 - Includes unit tests to verify the service's correctness.
 
+## 🌍 Public Web Service URL  
+You can access the live API at:  
+🔗 **[Bids2Match Web Service](https://bids2match.onrender.com/)**  
+
+## 📌 API Endpoints  
+
+### **1️Test if the service is running**
+- **URL:** `GET https://bids2match.onrender.com/`
+- **Response (if running):**
+  ```json
+  "Hello from Bids2Match! Your service is running."
+
 ## Project Structure
 ```
 project-root/
@@ -27,8 +39,8 @@ project-root/
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-   cd YOUR_REPO_NAME
+   git clone https://github.com/d1chiqua/bids2match.git
+   cd bids2match
    ```
 
 2. **Create a Virtual Environment (Optional but Recommended):**

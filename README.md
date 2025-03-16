@@ -72,8 +72,8 @@ The service will run in debug mode, typically available at `http://127.0.0.1:500
       "users": {
           "40763": {
               "bids": [
-                  { "tid": 4430, "priority": 1, "timestamp": "2025-03-15T17:16:51Z" },
-                  { "tid": 4427, "priority": 3, "timestamp": "2025-03-15T17:16:52Z" }
+                  { "tid": 4430, "priority": 1, "timestamp": "Sat, 15 Mar 2025 17:16:51 GMT" },
+                  { "tid": 4427, "priority": 3, "timestamp": "Sat, 15 Mar 2025 17:16:52 GMT" }
               ],
               "otid": 4429
           }
